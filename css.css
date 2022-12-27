@@ -1,0 +1,94 @@
+@font-face {
+  font-family: LadyRadical;
+  src: url(Lady_Radical.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: osd;
+  src: url(w95fa.woff);
+}
+html { background-color: #fffbf1;
+	font-family: osd;
+	background-repeat: repeat-x;
+}
+
+article{
+	background: #fffbf1;
+	margin: 10%;
+	margin-top: 0;
+	padding: 3%;
+	line-height: 1.1em;
+
+}
+body{
+	font-size: 1.5em;
+	color: #001eff;
+	margin: 0;
+	padding: 0;
+}
+
+mark.red{
+	color: #00b8ff;
+	background: #fffbf1;
+}
+
+mark.text{
+	color: #d600ff;
+	background: #fffbf1;
+}
+
+pre.hr{
+	text-align: center;
+	color: #1e486c;
+}
+pre{
+	margin: 0px;
+	padding: 0px;
+	margin-left: 0%;
+	color:  #1e486c;
+}
+pre{
+	margin: 0px;
+	padding: 0px;
+	margin-left: 0%;
+	color:  #1e486c;
+}
+article>img{
+	display: block;
+	max-width: 80%;
+	margin: auto;
+	margin-top:2em;
+	margin-bottom:2em;
+}
+
+.red_letter{
+	color: red;
+}
+
+a
+{
+	color: #4c6ef5;
+}
+a:hover
+{
+	color: red;
+}
+
+.container{
+    display: flex;
+    background-color: : #fffbf1 !important;
+}
+.left{
+    flex: 1;
+    background-color: : #fffbf1 !important;
+}
+
+.left:last-child{
+    color: #f783ac;
+    background-color: #fffbf1;
+}
+
+pre.title_art
+{
+  color: #e9ecef;
+}
